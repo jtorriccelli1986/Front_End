@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>Formularios</h2>
+<form action="registro.html" method="GET" enctype="multipart">
+
+	<label>Fecha Del Registro</label>
+	<input type="text" name="fecha_registro" value="11:40am 30/03/2019" readonly><br>
+	
+	<label>Nombres:</label>
+	<input type="text" name="nombre" placeholder="Ingresa tu nombre aquí" required><br>
+	
+	<label>Apellidos:</label>
+	<input type="text" name="apellido" required><br>
+	
+	<label>Fecha de nac.</label>
+	<input type="text" name="fecha" placeholder="dd/mm/yyyy" required><br>
+	
+	<label>Correo</label>
+	<input type="text" name="" value="@gmail.com"><br>
+
+
+
+	<label>Password</label>
+	<input type="password" name="password"><br>
+
+	<label>Cursos:</label><br>
+	<input type="text" name=""><br>
+
+	<label>Cursos:</label><br>
+	
+	<label><input type="checkbox" name="html">Html</label>
+	
+	<br>
+	
+	<label><input type="checkbox" name="css">CSS</label>
+	
+	<br>
+
+	<label><input type="checkbox" name="js">JS</label>
+	
+	<br>
+
+	<label>Turno</label><br>
+	<label>Mañana</label>
+	<input type="radio" name="turno">
+	<br>
+
+	<label>Tarde</label>
+	<input type="radio" name="turno">
+	<br>
+
+	<label>Noche</label>
+	<input type="radio" name="turno">
+	<br>
+
+	<label>Distrito</label>
+	<br>
+	<select>
+		<option disabled selected>Selecciona tu registro</option>
+		<option value="35">Lince</option>
+		<option value="36">San Juan de Miraflores</option>
+		<option value="39">Jesús M.</option>
+	</select>
+
+	<br>
+	<label>Comentario</label>
+	<br>
+	<textarea></textarea>
+	<br>
+	<label>Selecciona archivo</label>	<br>
+	<input type="file" name="archivo" multiple>
+	<br>
+	<input type="submit" name="grabar" value="submit">
+</form>
+
+</body>
+</html>
